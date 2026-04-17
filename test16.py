@@ -1,0 +1,1 @@
+# Given a list of transactions [{"from": "A", "to": "B", "amount": 50}, ...], compute the net balance of each person. 
