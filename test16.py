@@ -4,6 +4,7 @@ transactions = [
     {"from": "A", "to": "B", "amount": 50},
     {"from": "B", "to": "C", "amount": 30},
     {"from": "C", "to": "A", "amount": 20},
+    {"from": "C", "to": "A", "amount": 20},
 
     {"from": "A", "to": "D", "amount": 40},
     {"from": "D", "to": "B", "amount": 25},
@@ -17,22 +18,29 @@ transactions = [
     {"from": "E", "to": "B", "amount": 20}
 ]
 
-net_Bal = {}
 
-for action in transactions:
 
-    sender = action["from"]
-    receiver = action["to"]
-    t_amount = action["amount"]
 
-    if sender in net_Bal:
-        net_Bal[sender] -= t_amount
-    else:
-        net_Bal[sender] = 0 - t_amount
+def cal_transction(list_transactions):
+    net_Bal = {}
 
-    if receiver in net_Bal:
-        net_Bal[receiver] += t_amount
-    else:
-        net_Bal[receiver] = 0 + t_amount
+    for action in transactions:
+        sender = action["from"]
+        receiver = action["to"]
+        t_amount = action["amount"]
 
-print(net_Bal)
+        if sender in net_Bal:
+            net_Bal[sender] -= t_amount
+        else:
+            net_Bal[sender] = 0 - t_amount
+
+        if receiver in net_Bal:
+            net_Bal[receiver] += t_amount
+        else:
+            net_Bal[receiver] = 0 + t_amount
+
+    return net_Bal
+
+
+result = cal_transction(transactions)
+print(result)
