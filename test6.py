@@ -16,3 +16,5 @@ def second_laregest(my_list):
 
 
 print(second_laregest([23, 45, 12, 67, 89, 34]))
+
+# 67

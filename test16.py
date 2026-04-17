@@ -44,3 +44,6 @@ def cal_transction(list_transactions):
 
 result = cal_transction(transactions)
 print(result)
+
+
+# {'A': 10, 'B': 55, 'C': -30, 'D': 35, 'E': -70}

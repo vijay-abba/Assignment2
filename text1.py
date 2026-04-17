@@ -15,3 +15,7 @@ def find_min_and_max(my_list):
 
 result = find_min_and_max(my_list_a)
 print(result)
+
+
+# OUTPUT
+# Smallest: 12, Largest: 89

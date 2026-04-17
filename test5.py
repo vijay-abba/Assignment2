@@ -11,3 +11,6 @@ def list_intersection(list_one, list_two):
 list_a = [1, 2, 3, 3, 4]
 list_b = [2, 3, 5, 6]
 print(list_intersection(list_a, list_b))
+
+
+# [2, 3]

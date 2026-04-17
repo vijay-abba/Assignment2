@@ -46,3 +46,11 @@ for rec in records:
 
 print(topper)
 
+
+
+# {
+#     'maths': {'name': 'vijay', 'marks': 100}, 
+#     'physics': {'name': 'kiran', 'marks': 92}, 
+#     'chemistry': {'name': 'anita', 'marks': 85}, 
+#     'biology': {'name': 'sneha', 'marks': 89}
+# }

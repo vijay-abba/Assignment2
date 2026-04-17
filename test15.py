@@ -15,3 +15,6 @@ def word_frequ(my_sentance):
 sent = "Apple apple APPLE banana BANANA banana grape "
 
 print(word_frequ(sent))
+
+
+# {'apple': 3, 'banana': 3, 'grape': 1}

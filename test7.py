@@ -4,3 +4,8 @@ weekdays = ("Sunday", "Monday", "Tuesday" , "Wednesday", "Thrusday", "Friday", "
 
 print(weekdays[2]) # 3rd 
 print(weekdays[-1]) 
+
+
+
+# Tuesday
+# Saturaday

@@ -32,3 +32,19 @@ print(find_even_and_odd_count(list_g))
 print(find_even_and_odd_count(list_h))
 print(find_even_and_odd_count(list_i))
 print(find_even_and_odd_count(list_j))
+
+
+
+# OUTPUT
+"""
+In the given list [1, 2, 3, 4, 5, 6] there are 3 Even, and 3 Odd numbers
+In the given list [10, 15, 20, 25, 30] there are 3 Even, and 2 Odd numbers
+In the given list [7, 9, 11, 13] there are 0 Even, and 4 Odd numbers
+In the given list [2, 4, 6, 8, 10, 12] there are 6 Even, and 0 Odd numbers
+In the given list [0, 1, 2, 3, 4] there are 3 Even, and 2 Odd numbers
+In the given list [-1, -2, -3, -4, -5] there are 2 Even, and 3 Odd numbers
+In the given list [21, 22, 23, 24, 25, 26, 27] there are 3 Even, and 4 Odd numbers
+In the given list [100] there are 1 Even, and 0 Odd numbers
+In the given list [101] there are 0 Even, and 1 Odd numbers
+In the given list [] there are 0 Even, and 0 Odd numbers
+"""

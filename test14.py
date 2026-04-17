@@ -63,3 +63,6 @@ def find_topper(my_dict):
 
 result = find_topper(students)
 print(result)
+
+
+# {'marks': 270, 'class_topper': 'vijay'}

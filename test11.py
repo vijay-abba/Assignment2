@@ -15,3 +15,6 @@ fruits = ("apple", "bananna", "graps", "pappay", "watermelon", "guava", "pinneap
 result = len_of_stiring_tup(fruits)
 
 print(result)
+
+
+# (5, 7, 5, 6, 10, 5, 10)
