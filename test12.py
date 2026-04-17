@@ -28,3 +28,21 @@ records = [
     ("arjun", "chemistry", 68),
     ("arjun", "biology", 74),
 ]
+
+
+topper = {}
+
+for rec in records:
+    student = rec[0]
+    subject = rec[1]
+    marks = rec[2]
+    if subject in topper:
+        if marks > topper[subject]["marks"]:
+            topper[subject]["name"] = student
+            topper[subject]["marks"] = marks
+    else:
+        topper[subject] = {"name":student, "marks" : marks}
+    
+
+print(topper)
+
