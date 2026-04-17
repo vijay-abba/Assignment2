@@ -17,24 +17,22 @@ transactions = [
     {"from": "E", "to": "B", "amount": 20}
 ]
 
-
-
-
 net_Bal = {}
 
 for action in transactions:
 
     sender = action["from"]
     receiver = action["to"]
-    
+    t_amount = action["amount"]
+
     if sender in net_Bal:
-        net_Bal[sender] -= action["amount"]
+        net_Bal[sender] -= t_amount
     else:
-        net_Bal[sender] = 0 - action["amount"]
+        net_Bal[sender] = 0 - t_amount
 
     if receiver in net_Bal:
-        net_Bal[receiver] += action["amount"]
+        net_Bal[receiver] += t_amount
     else:
-        net_Bal[receiver] = 0 + action["amount"]
+        net_Bal[receiver] = 0 + t_amount
 
 print(net_Bal)
