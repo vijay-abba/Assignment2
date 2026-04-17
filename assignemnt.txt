@@ -1,0 +1,16 @@
+Find the largest and smallest number in a list [23, 45, 12, 67, 89, 34] without using max() or min().
+Write a program to count how many even and odd numbers are in a list. 
+Reverse a list without using the reverse() method.
+Remove all duplicates from a list [1, 2, 2, 3, 4, 4, 5].
+Given two lists, create a third list that contains only the common elements (intersection). 
+Find the second largest number in a list without sorting
+Create a tuple of 7 weekdays and print the 3rd and last day using indexing.
+Count how many times the number 5 appears in (1, 5, 3, 5, 7, 5, 9).
+Unpack a tuple ("Alice", 25, "Engineer") into three separate variables
+Given a tuple of numbers, return a new tuple containing only the prime numbers.
+Write a function that takes a tuple of strings and returns a tuple with the length of each string.
+Given a list of student records as tuples (name, subject, score), find the top scorer for each subject.
+Create a dictionary of 5 countries and their capitals, then print all key-value pairs.
+Given a dictionary of student marks, find the student with the highest score
+Write a function that takes a sentence and returns a dictionary with word frequency counts (case-insensitive).
+Given a list of transactions [{"from": "A", "to": "B", "amount": 50}, ...], compute the net balance of each person. 
